@@ -7,7 +7,7 @@ export default function BoardPage() {
   const boardMembers = [
     {
       id: 1,
-      name: "Alex Johnson",
+      name: "Shekhar Shah",
       position: "President",
       bio: "Senior studying Computer Science and Statistics. Passionate about machine learning and its applications in healthcare. Previously interned at Epic Systems and Google.",
       avatar: "AJ",
