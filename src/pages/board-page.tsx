@@ -9,58 +9,38 @@ export default function BoardPage() {
       id: 1,
       name: "Shekhar Shah",
       position: "President",
-      bio: "Senior studying Computer Science and Statistics. Passionate about machine learning and its applications in healthcare. Previously interned at Epic Systems and Google.",
+      bio: "Shekhar is a rising junior studying Computer Science and Statistics. He's interested in data science applications in sports, finance and healthcare. He currently works with the Wisconsin Football team as a Football Personnel Intern. ",
       avatar: "SS",
     },
     {
       id: 2,
-      name: "Maya Patel",
+      name: "Alka Lakadia",
       position: "Vice President",
       bio: "Junior majoring in Data Science. Interested in natural language processing and computational linguistics. Research assistant in the UW NLP lab.",
-      avatar: "MP",
+      avatar: "AL",
     },
     {
       id: 3,
-      name: "David Kim",
-      position: "Treasurer",
+      name: "Manasvi Khandelwal",
+      position: "Secretary",
       bio: "Senior in Statistics and Economics. Focused on financial data analysis and predictive modeling. Has experience managing budgets for multiple student organizations.",
       avatar: "DK",
     },
     {
       id: 4,
-      name: "Sophia Chen",
-      position: "Secretary",
+      name: "Carter Kurzka",
+      position: "Events Head",
       bio: "Junior studying Information Science. Passionate about data visualization and user experience. Previously worked on data journalism projects with the campus newspaper.",
-      avatar: "SC",
+      avatar: "CK",
     },
     {
       id: 5,
-      name: "Marcus Williams",
-      position: "Events Coordinator",
+      name: "Piha Patel",
+      position: "Social Media Head",
       bio: "Senior in Computer Science. Enthusiastic about creating engaging learning experiences. Has organized multiple hackathons and workshops across campus.",
       avatar: "MW",
     },
-    {
-      id: 6,
-      name: "Olivia Rodriguez",
-      position: "Outreach Director",
-      bio: "Junior double majoring in Communication Arts and Data Science. Skilled in building partnerships with industry professionals and other campus organizations.",
-      avatar: "OR",
-    },
-    {
-      id: 7,
-      name: "James Wilson",
-      position: "Technical Director",
-      bio: "Senior in Computer Engineering. Experienced in full-stack development and cloud infrastructure. Maintains the club's technical resources and project repositories.",
-      avatar: "JW",
-    },
-    {
-      id: 8,
-      name: "Emma Davis",
-      position: "Mentorship Chair",
-      bio: "Senior in Statistics. Passionate about making data science accessible to beginners. Developed the club's peer mentoring program connecting underclassmen with experienced members.",
-      avatar: "ED",
-    },
+   
   ]
 
   // Function to get background color based on position
@@ -70,20 +50,12 @@ export default function BoardPage() {
         return "bg-red-500"
       case "Vice President":
         return "bg-blue-500"
-      case "Treasurer":
-        return "bg-green-500"
       case "Secretary":
+        return "bg-green-500"
+      case "Events Head":
         return "bg-purple-500"
-      case "Events Coordinator":
+      case "Social Media Head":
         return "bg-yellow-500"
-      case "Outreach Director":
-        return "bg-pink-500"
-      case "Technical Director":
-        return "bg-indigo-500"
-      case "Mentorship Chair":
-        return "bg-teal-500"
-      default:
-        return "bg-gray-500"
     }
   }
 
@@ -94,7 +66,7 @@ export default function BoardPage() {
         <header className="mb-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Board</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Meet our dedicated team of student leaders who make MadData possible.
+            Meet the dotData Executive Board.
           </p>
         </header>
 
