@@ -20,7 +20,7 @@ export default function MadDataPage() {
 
         {/* Projects/Datasets Section */}
         <section>
-          <h2 className="text-3xl font-bold mb-8 text-center">Our Projects</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">2025 MadData Winners</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
@@ -29,19 +29,21 @@ export default function MadDataPage() {
                 <div className="bg-purple-100 p-3 rounded-full w-fit mb-4">
                   <BarChart3 className="h-6 w-6 text-purple-600" />
                 </div>
-                <CardTitle>Campus Sentiment Analysis</CardTitle>
-                <CardDescription>Analyzing student feedback data to improve campus services</CardDescription>
+                <CardTitle>ClaimReady</CardTitle>
+                <CardDescription></CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Using natural language processing to understand student satisfaction across various campus services
-                  and facilities.
+                  Computer Vision AI to help homeowners scan, value, and protect their belongings 
+                  from forest fire losses—making the insurance claims process faster and less stressful.
                 </p>
               </CardContent>
               <CardFooter>
+                <a href="https://devpost.com/software/claimready?_gl=1*i70yaq*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI0MzkkajI5JGwwJGgw" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" className="gap-1">
-                  Learn more <ArrowRight className="h-4 w-4" />
+                Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
+                </a>
               </CardFooter>
             </Card>
 
