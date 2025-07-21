@@ -1,4 +1,4 @@
-import React from "react"
+icimport React from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function SponsorsPage() {
@@ -10,7 +10,7 @@ export default function SponsorsPage() {
       level: "",
       description: "".
       logoColor: "bg-gradient-to-br from-blue-500 to-purple-600",
-      logoUrl: "ES",
+      logoUrl: "public/epiclogo.jpg",
     },
     {
       id: 2,
