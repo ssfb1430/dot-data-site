@@ -97,25 +97,6 @@ export default function MadDataPage() {
         </section>
 
         {/* Featured Dataset */}
-        <section className="mt-16">
-          <Card className="bg-gradient-to-r from-purple-50 to-blue-50 border-none">
-            <CardHeader>
-              <CardTitle className="text-2xl">Featured Dataset</CardTitle>
-              <CardDescription>Explore our latest collection of data</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <h3 className="text-xl font-semibold mb-2">Campus Mobility Patterns</h3>
-              <p className="text-gray-600">
-                This anonymized dataset tracks student movement patterns across campus to help optimize class scheduling
-                and facility usage. Contains over 10,000 data points collected during the Spring 2023 semester.
-              </p>
-            </CardContent>
-            <CardFooter>
-              <Button className="bg-purple-600 hover:bg-purple-700">Explore Dataset</Button>
-            </CardFooter>
-          </Card>
-        </section>
-      </div>
-    </div>
+  
   )
 } 
