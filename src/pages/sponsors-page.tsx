@@ -8,7 +8,7 @@ export default function SponsorsPage() {
       id: 1,
       name: "Epic Systems",
       level: "",
-      description: "".
+      description: "",
       logoUrl: "public/epiclogo.jpg",
     },
     {
