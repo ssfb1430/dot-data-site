@@ -1,4 +1,4 @@
-icimport React from "react"
+import React from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function SponsorsPage() {
