@@ -16,7 +16,7 @@ export default function SponsorsPage() {
       name: "Baird",
       level: "",
       description:
-        "Regional data consulting firm offering mentorship programs and technical resources for student projects and competitions.",
+        "",
       logoUrl: "public/bairdlogo.png",
     },
     {
