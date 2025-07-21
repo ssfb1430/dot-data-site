@@ -30,7 +30,7 @@ export default function MadDataPage() {
                   <BarChart3 className="h-6 w-6 text-purple-600" />
                 </div>
                 <CardTitle>ClaimReady</CardTitle>
-                <CardDescription></CardDescription>
+                <CardDescription />
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
@@ -39,10 +39,14 @@ export default function MadDataPage() {
                 </p>
               </CardContent>
               <CardFooter>
-                <a href="https://devpost.com/software/claimready?_gl=1*i70yaq*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI0MzkkajI5JGwwJGgw" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="gap-1">
-                Learn more <ArrowRight className="h-4 w-4" />
-                </Button>
+                <a
+                  href="https://devpost.com/software/claimready?_gl=1*i70yaq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="gap-1">
+                    Learn more <ArrowRight className="h-4 w-4" />
+                  </Button>
                 </a>
               </CardFooter>
             </Card>
@@ -54,7 +58,7 @@ export default function MadDataPage() {
                   <Database className="h-6 w-6 text-blue-600" />
                 </div>
                 <CardTitle>NodeTree</CardTitle>
-                <CardDescription></CardDescription>
+                <CardDescription />
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
@@ -62,10 +66,14 @@ export default function MadDataPage() {
                 </p>
               </CardContent>
               <CardFooter>
-                <a href="https://devpost.com/software/nodetree?_gl=1*1246msf*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI3NDQkajYwJGwwJGgw" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="gap-1">
-                Learn more <ArrowRight className="h-4 w-4" />
-                </Button>
+                <a
+                  href="https://devpost.com/software/nodetree?_gl=1*1246msf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="gap-1">
+                    Learn more <ArrowRight className="h-4 w-4" />
+                  </Button>
                 </a>
               </CardFooter>
             </Card>
@@ -77,7 +85,7 @@ export default function MadDataPage() {
                   <FileSpreadsheet className="h-6 w-6 text-green-600" />
                 </div>
                 <CardTitle>Ai-Interviewer</CardTitle>
-                <CardDescription></CardDescription>
+                <CardDescription />
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
@@ -86,14 +94,20 @@ export default function MadDataPage() {
                 </p>
               </CardContent>
               <CardFooter>
-                <a href="https://devpost.com/software/nodetree?_gl=1*796znj*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI4MzMkajMzJGwwJGgw" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="gap-1">
-                Learn more <ArrowRight className="h-4 w-4" />
-                </Button>
+                <a
+                  href="https://devpost.com/software/ai-interviewer?_gl=1*796znj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="gap-1">
+                    Learn more <ArrowRight className="h-4 w-4" />
+                  </Button>
                 </a>
               </CardFooter>
             </Card>
           </div>
-        </section>  
+        </section>
+      </div>
+    </div>
   )
-} 
+}
