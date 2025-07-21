@@ -9,7 +9,6 @@ export default function SponsorsPage() {
       name: "Epic Systems",
       level: "",
       description: "".
-      logoColor: "bg-gradient-to-br from-blue-500 to-purple-600",
       logoUrl: "public/epiclogo.jpg",
     },
     {
@@ -18,7 +17,6 @@ export default function SponsorsPage() {
       level: "",
       description:
         "Regional data consulting firm offering mentorship programs and technical resources for student projects and competitions.",
-      logoColor: "bg-gradient-to-br from-amber-400 to-amber-600",
       logoUrl: "MA",
     },
     {
@@ -27,7 +25,6 @@ export default function SponsorsPage() {
       level: "Academic Partner",
       description:
         "Departmental support providing faculty advisors, workshop spaces, and academic resources for club activities and events.",
-      logoColor: "bg-gradient-to-br from-red-500 to-red-700",
       logoUrl: "UW",
     },
     {
@@ -36,7 +33,6 @@ export default function SponsorsPage() {
       level: "Silver Partner",
       description:
         "Tech startup founded by UW alumni offering cloud computing resources and guest speakers for technical workshops.",
-      logoColor: "bg-gradient-to-br from-gray-400 to-gray-600",
       logoUrl: "QD",
     },
     {
@@ -45,7 +41,6 @@ export default function SponsorsPage() {
       level: "Community Partner",
       description:
         "Local technology consortium connecting students with the broader tech community through networking events and job fairs.",
-      logoColor: "bg-gradient-to-br from-green-500 to-green-700",
       logoUrl: "MTA",
     },
     {
@@ -54,7 +49,6 @@ export default function SponsorsPage() {
       level: "Bronze Partner",
       description:
         "Campus innovation hub providing workspace, equipment, and seed funding for student-led data science projects.",
-      logoColor: "bg-gradient-to-br from-orange-400 to-orange-600",
       logoUrl: "BI",
     },
   ]
