@@ -21,9 +21,6 @@ export default function Navbar() {
             <Link to="/meetings" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
               Meetings
             </Link>
-            <Link to="/opportunities" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-              Opportunities
-            </Link>
             <Link to="/resources" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
               Resources
             </Link>
