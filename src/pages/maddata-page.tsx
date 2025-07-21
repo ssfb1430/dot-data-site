@@ -13,8 +13,8 @@ export default function MadDataPage() {
             MadData
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            UW-Madison's premier student organization dedicated to exploring the world of data science, analytics, and
-            machine learning through hands-on projects and collaborative learning.
+            MadData is dotData's annual data science hackathon. This competition happens in February, is open to all students at UW-Madison, and is free to enter. MadData is a 
+            great way for students to find innovative solutions for modern problems using data. It is a great way to gain real-world experience working with data science tools. 
           </p>
         </header>
 
@@ -53,19 +53,20 @@ export default function MadDataPage() {
                 <div className="bg-blue-100 p-3 rounded-full w-fit mb-4">
                   <Database className="h-6 w-6 text-blue-600" />
                 </div>
-                <CardTitle>Madison Housing Trends</CardTitle>
-                <CardDescription>Visualizing rental market data for student housing</CardDescription>
+                <CardTitle>NodeTree</CardTitle>
+                <CardDescription></CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Collecting and analyzing housing data to help students make informed decisions about off-campus living
-                  options.
+                  Boost Your Thought Journey
                 </p>
               </CardContent>
               <CardFooter>
+                <a href="https://devpost.com/software/nodetree?_gl=1*1246msf*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI3NDQkajYwJGwwJGgw" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" className="gap-1">
-                  Learn more <ArrowRight className="h-4 w-4" />
+                Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
+                </a>
               </CardFooter>
             </Card>
 
@@ -75,19 +76,21 @@ export default function MadDataPage() {
                 <div className="bg-green-100 p-3 rounded-full w-fit mb-4">
                   <FileSpreadsheet className="h-6 w-6 text-green-600" />
                 </div>
-                <CardTitle>Course Enrollment Predictor</CardTitle>
-                <CardDescription>Predicting course popularity using historical data</CardDescription>
+                <CardTitle>Ai-Interviewer</CardTitle>
+                <CardDescription></CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Building machine learning models to forecast course enrollment patterns and help with academic
-                  planning.
+                  Our project was inspired by the challenges and stress people face during job interviews. We recognized the need for a tool that 
+                  could help candidates practice and improve their interview skills in a low-pressure environment.
                 </p>
               </CardContent>
               <CardFooter>
+                <a href="https://devpost.com/software/nodetree?_gl=1*796znj*_gcl_au*MTc2MDUxODY0MC4xNzUyOTQxNTc5*_ga*MTAxMjU0MjAwOS4xNzA3NDA0MTg3*_ga_0YHJK3Y10M*czE3NTMwNzIyNTEkbzckZzEkdDE3NTMwNzI4MzMkajMzJGwwJGgw" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" className="gap-1">
-                  Learn more <ArrowRight className="h-4 w-4" />
+                Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
+                </a>
               </CardFooter>
             </Card>
           </div>
