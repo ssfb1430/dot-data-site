@@ -94,9 +94,6 @@ export default function MadDataPage() {
               </CardFooter>
             </Card>
           </div>
-        </section>
-
-        {/* Featured Dataset */}
-  
+        </section>  
   )
 } 
