@@ -9,7 +9,7 @@ export default function SponsorsPage() {
       name: "Epic Systems",
       level: "",
       description: "",
-      logoUrl: "public/epiclogo.jpg",
+      logoUrl: "public/epiclogo.png",
     },
     {
       id: 2,
@@ -17,39 +17,31 @@ export default function SponsorsPage() {
       level: "",
       description:
         "Regional data consulting firm offering mentorship programs and technical resources for student projects and competitions.",
-      logoUrl: "MA",
+      logoUrl: "public/bairdlogo.png",
     },
     {
       id: 3,
-      name: "UW Statistics Department",
-      level: "Academic Partner",
+      name: "Grafana",
+      level: "",
       description:
-        "Departmental support providing faculty advisors, workshop spaces, and academic resources for club activities and events.",
-      logoUrl: "UW",
+        "",
+      logoUrl: "public/grafanalogo.png",
     },
     {
       id: 4,
-      name: "QuantumData Inc.",
-      level: "Silver Partner",
+      name: "UW Madison Libraries",
+      level: "",
       description:
-        "Tech startup founded by UW alumni offering cloud computing resources and guest speakers for technical workshops.",
-      logoUrl: "QD",
+        "",
+      logoUrl: "public/uwmadliblogo.jpg",
     },
     {
       id: 5,
-      name: "Madison Tech Alliance",
-      level: "Community Partner",
+      name: "UW Madison CDIS",
+      level: "",
       description:
-        "Local technology consortium connecting students with the broader tech community through networking events and job fairs.",
-      logoUrl: "MTA",
-    },
-    {
-      id: 6,
-      name: "Badger Innovations",
-      level: "Bronze Partner",
-      description:
-        "Campus innovation hub providing workspace, equipment, and seed funding for student-led data science projects.",
-      logoUrl: "BI",
+        "",
+      logoUrl: "public/cdislogo.png",
     },
   ]
 
@@ -99,7 +91,7 @@ export default function SponsorsPage() {
               className={`border-2 ${getBorderColor(sponsor.level as PartnerLevel)} hover:shadow-md transition-shadow`}
             >
               <CardHeader className="flex flex-col items-center pt-6 pb-2">
-                <div className="w-20 h-20 mb-4">
+                <div className="w-20 h-10 mb-4">
                   <img
                     src={sponsor.logoUrl}
                     alt={`${sponsor.name} logo`}
