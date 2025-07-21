@@ -30,6 +30,7 @@ function App() {
             <Route path="/board" element={<BoardPage />} />
             <Route path="/meetings" element={<MeetingsPage />} />
             <Route path="/resources" element={<ResourcesEncyclopedia />} />
+            <Route path="/opportunities" element={<OpportunitiesPage />} />
             <Route path="/sponsors" element={<SponsorsPage />} />
           </Routes>
         </main>
