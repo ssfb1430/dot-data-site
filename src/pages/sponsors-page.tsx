@@ -6,21 +6,20 @@ export default function SponsorsPage() {
   const sponsors = [
     {
       id: 1,
-      name: "DataTech Solutions",
-      level: "Platinum Partner",
-      description:
-        "Leading provider of data analytics software supporting student workshops and providing internship opportunities for club members.",
+      name: "Epic Systems",
+      level: "",
+      description: "".
       logoColor: "bg-gradient-to-br from-blue-500 to-purple-600",
-      logoText: "DT",
+      logoUrl: "ES",
     },
     {
       id: 2,
-      name: "Midwest Analytics",
-      level: "Gold Partner",
+      name: "Baird",
+      level: "",
       description:
         "Regional data consulting firm offering mentorship programs and technical resources for student projects and competitions.",
       logoColor: "bg-gradient-to-br from-amber-400 to-amber-600",
-      logoText: "MA",
+      logoUrl: "MA",
     },
     {
       id: 3,
@@ -29,7 +28,7 @@ export default function SponsorsPage() {
       description:
         "Departmental support providing faculty advisors, workshop spaces, and academic resources for club activities and events.",
       logoColor: "bg-gradient-to-br from-red-500 to-red-700",
-      logoText: "UW",
+      logoUrl: "UW",
     },
     {
       id: 4,
@@ -38,7 +37,7 @@ export default function SponsorsPage() {
       description:
         "Tech startup founded by UW alumni offering cloud computing resources and guest speakers for technical workshops.",
       logoColor: "bg-gradient-to-br from-gray-400 to-gray-600",
-      logoText: "QD",
+      logoUrl: "QD",
     },
     {
       id: 5,
@@ -47,7 +46,7 @@ export default function SponsorsPage() {
       description:
         "Local technology consortium connecting students with the broader tech community through networking events and job fairs.",
       logoColor: "bg-gradient-to-br from-green-500 to-green-700",
-      logoText: "MTA",
+      logoUrl: "MTA",
     },
     {
       id: 6,
@@ -56,25 +55,7 @@ export default function SponsorsPage() {
       description:
         "Campus innovation hub providing workspace, equipment, and seed funding for student-led data science projects.",
       logoColor: "bg-gradient-to-br from-orange-400 to-orange-600",
-      logoText: "BI",
-    },
-    {
-      id: 7,
-      name: "Global Data Institute",
-      level: "Research Partner",
-      description:
-        "International research organization collaborating on data science research projects and providing access to unique datasets.",
-      logoColor: "bg-gradient-to-br from-indigo-500 to-indigo-700",
-      logoText: "GDI",
-    },
-    {
-      id: 8,
-      name: "TechStart Foundation",
-      level: "Nonprofit Partner",
-      description:
-        "Nonprofit organization supporting diversity in tech by funding scholarships and inclusive programming for underrepresented students.",
-      logoColor: "bg-gradient-to-br from-teal-500 to-teal-700",
-      logoText: "TSF",
+      logoUrl: "BI",
     },
   ]
 
@@ -124,10 +105,12 @@ export default function SponsorsPage() {
               className={`border-2 ${getBorderColor(sponsor.level as PartnerLevel)} hover:shadow-md transition-shadow`}
             >
               <CardHeader className="flex flex-col items-center pt-6 pb-2">
-                <div
-                  className={`w-16 h-16 rounded-full flex items-center justify-center text-white text-xl font-bold mb-4 ${sponsor.logoColor}`}
-                >
-                  {sponsor.logoText}
+                <div className="w-20 h-20 mb-4">
+                  <img
+                    src={sponsor.logoUrl}
+                    alt={`${sponsor.name} logo`}
+                    className="w-full h-full object-contain rounded"
+                  />
                 </div>
                 <div className="text-center">
                   <CardTitle className="text-xl">{sponsor.name}</CardTitle>
