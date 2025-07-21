@@ -29,7 +29,6 @@ function App() {
             <Route path="/maddata" element={<MadDataPage />} />
             <Route path="/board" element={<BoardPage />} />
             <Route path="/meetings" element={<MeetingsPage />} />
-            <Route path="/opportunities" element={<OpportunitiesPage />} />
             <Route path="/resources" element={<ResourcesEncyclopedia />} />
             <Route path="/sponsors" element={<SponsorsPage />} />
           </Routes>
