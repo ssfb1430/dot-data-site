@@ -3,67 +3,51 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CalendarIcon, Clock, MapPin } from "lucide-react"
 
 export default function MeetingsPage() {
-  // Placeholder data for upcoming meetings
+  // Real upcoming meetings
   const upcomingMeetings = [
     {
       id: 1,
-      title: "Data Visualization Workshop",
-      date: "May 20, 2025",
-      time: "4:00 PM - 5:30 PM",
-      location: "Computer Sciences Building, Room 1240",
-      description: "Learn how to create effective data visualizations using Python and Matplotlib.",
-    },
-    {
-      id: 2,
-      title: "Machine Learning Study Group",
-      date: "May 27, 2025",
-      time: "5:00 PM - 6:30 PM",
-      location: "Memorial Union, Tripp Commons",
-      description: "Collaborative session focusing on supervised learning algorithms and implementations.",
-    },
-    {
-      id: 3,
-      title: "Guest Speaker: Data Ethics",
-      date: "June 3, 2025",
-      time: "4:30 PM - 6:00 PM",
-      location: "Social Sciences Building, Room 5208",
-      description: "Special guest lecture on ethical considerations in data science and AI applications.",
+      title: "Google Activation X Tech Exploration Lab X DotData",
+      date: "TBD",
+      time: "",
+      location: "TBD",
+      description: "Collaborative event with Google and Tech Exploration Lab.",
     },
   ]
 
-  // Placeholder data for past meetings
+  // Real past meetings
   const pastMeetings = [
     {
       id: 4,
-      title: "SQL Workshop for Beginners",
-      date: "May 6, 2025",
-      time: "4:00 PM - 5:30 PM",
-      location: "Computer Sciences Building, Room 1221",
-      description: "Introduction to SQL queries and database management for data analysis.",
+      title: "Matthew Bruehl NVIDIA Data Analytics & Big Data Tech Lead",
+      date: "April 9, 2025",
+      time: "",
+      location: "Computer Sciences Building, Room 1240",
+      description: "Guest speaker session with NVIDIA's Data Analytics & Big Data Tech Lead.",
     },
     {
       id: 5,
-      title: "Data Cleaning Techniques",
-      date: "April 29, 2025",
-      time: "5:00 PM - 6:00 PM",
-      location: "Memorial Union, Landmark Room",
-      description: "Hands-on session covering methods for preparing and cleaning datasets.",
+      title: "Capture the Flag Event",
+      date: "April 2, 2025",
+      time: "",
+      location: "Computer Sciences Building, Room 1240",
+      description: "Data science themed capture the flag competition.",
     },
     {
       id: 6,
-      title: "Intro to R Programming",
-      date: "April 22, 2025",
-      time: "4:30 PM - 6:00 PM",
-      location: "Van Vleck Hall, Room B102",
-      description: "Beginner-friendly introduction to R for statistical analysis and data visualization.",
+      title: "Darrell Director of Analytics at Aurora",
+      date: "October 30, 2024",
+      time: "",
+      location: "Computer Sciences Building, Room 1240",
+      description: "Insights from Aurora's Director of Analytics on industry applications.",
     },
     {
       id: 7,
-      title: "Data Science Career Panel",
-      date: "April 15, 2025",
-      time: "5:00 PM - 6:30 PM",
-      location: "Grainger Hall, Room 1100",
-      description: "Panel discussion with industry professionals about careers in data science.",
+      title: "American Airlines: Operations and Analysis",
+      date: "October 11, 2024",
+      time: "",
+      location: "Computer Sciences Building, Room 1240",
+      description: "Learn about data analytics applications in airline operations and analysis.",
     },
   ]
 
@@ -88,10 +72,12 @@ export default function MeetingsPage() {
             <CalendarIcon className="h-4 w-4 mr-2" />
             <span>{meeting.date}</span>
           </div>
-          <div className="flex items-center text-sm text-gray-600">
-            <Clock className="h-4 w-4 mr-2" />
-            <span>{meeting.time}</span>
-          </div>
+          {meeting.time && (
+            <div className="flex items-center text-sm text-gray-600">
+              <Clock className="h-4 w-4 mr-2" />
+              <span>{meeting.time}</span>
+            </div>
+          )}
           <div className="flex items-center text-sm text-gray-600">
             <MapPin className="h-4 w-4 mr-2" />
             <span>{meeting.location}</span>
