@@ -7,12 +7,36 @@ export default function MeetingsPage() {
   const upcomingMeetings = [
     {
       id: 1,
-      title: "Google Activation X Tech Exploration Lab X DotData",
-      date: "TBD",
-      time: "",
-      location: "TBD",
-      description: "Collaborative event with Google and Tech Exploration Lab.",
+      title: "Matthew Bruehl NVIDIA Data Analytics & Big Data Tech Lead",
+      date: "12th November 2025",
+      time: "6:00pm",
+      location: "Morgridge Hall 2532",
+      description: "Matthew will be presenting about AI in Industry and How to Prepare for the future with AI — covering key skills, trends, and what companies are looking for as AI continues to grow.",
     },
+    {
+      id: 2,
+      title: "Resume Review and Exec Panel AMA",
+      date: "19th November 2025",
+      time: "6:00pm",
+      location: "Morgridge Hall 2532",
+      description: "Join us for a Resume Review and a Panel with all the Exec Members of dotData to ask us any questions about courses, internships, the club, etc.",
+    },
+    {
+      id: 3,
+      title: "Industry Event with Heartland Farms",
+      date: "3rd December 2025",
+      time: "6:00pm",
+      location: "Morgridge Hall 2532",
+      description: "Join us for a conversation with Heartland Farms as they discuss their computer-vision potato sorter project, machine learning algorithms, SQL database design, and real-world supply & manufacturing applications.",
+    },
+    {
+      id: 4,
+      title: "Christmas Social",
+      date: "10th December 2025",
+      time: "6:00pm",
+      location: "Morgridge Hall 2532",
+      description: "Make some gingerbread houses with the board and fellow members as we wrap up the semester",
+    }
   ]
 
   // Real past meetings
