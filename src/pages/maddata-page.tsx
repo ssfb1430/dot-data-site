@@ -4,19 +4,54 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 
 export default function MadDataPage() {
+  /**
+   * Put your video file here:
+   * public/MadData'26.mp4
+   *
+   * Then this path will work:
+   * "/MadData'26.mp4"
+   */
+  const promoVideoSrc = "/MadData'26.MP4"
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-16">
         {/* Header Section */}
-        <header className="mb-16 text-center">
+        <header className="mb-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             MadData
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            MadData is dotData's annual data science hackathon. This competition happens in February, is open to all students at UW-Madison, and is free to enter. MadData is a 
-            great way for students to find innovative solutions for modern problems using data. It is a great way to gain real-world experience working with data science tools. 
+            MadData is dotData's annual data science hackathon. This competition happens in February, is open to all
+            students at UW-Madison, and is free to enter. MadData is a great way for students to find innovative
+            solutions for modern problems using data. It is a great way to gain real-world experience working with data
+            science tools.
           </p>
         </header>
+
+        {/* Video + Applications Banner */}
+        <section className="mb-16">
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl overflow-hidden shadow-lg border bg-black">
+              <video
+                className="w-full h-auto"
+                src={promoVideoSrc}
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls={false}
+              />
+            </div>
+
+            <div className="mt-6 text-center">
+              <p className="text-2xl md:text-3xl font-semibold text-gray-900">Applications open soon.</p>
+              <p className="mt-2 text-gray-600">
+                Stay tuned on our socials for the application link and track announcements.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Projects/Datasets Section */}
         <section>
@@ -34,8 +69,8 @@ export default function MadDataPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Computer Vision AI to help homeowners scan, value, and protect their belongings 
-                  from forest fire losses—making the insurance claims process faster and less stressful.
+                  Computer Vision AI to help homeowners scan, value, and protect their belongings from forest fire
+                  losses—making the insurance claims process faster and less stressful.
                 </p>
               </CardContent>
               <CardFooter>
@@ -61,9 +96,7 @@ export default function MadDataPage() {
                 <CardDescription />
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">
-                  Boost Your Thought Journey
-                </p>
+                <p className="text-gray-600">Boost Your Thought Journey</p>
               </CardContent>
               <CardFooter>
                 <a
@@ -89,8 +122,9 @@ export default function MadDataPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Our project was inspired by the challenges and stress people face during job interviews. We recognized the need for a tool that 
-                  could help candidates practice and improve their interview skills in a low-pressure environment.
+                  Our project was inspired by the challenges and stress people face during job interviews. We
+                  recognized the need for a tool that could help candidates practice and improve their interview skills
+                  in a low-pressure environment.
                 </p>
               </CardContent>
               <CardFooter>
